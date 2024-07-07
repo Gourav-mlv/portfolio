@@ -85,14 +85,13 @@ const Intro = () => {
           </div>
 
           {/* Image */}
-          <div
-  className={
-    "translate-x-[500px] transition-all opacity-0 duration-700 w-[240px] md:w-[320px] h-[400px] md:h-[500px] bg-cover m-auto md:m-0 mt-[40px] md:mt-0 bg-no-repeat"
-  }
-  ref={profileRef}
-  style={{ backgroundImage: "url(/images/male.png)" }}
-/>
-</div>
+          <img
+            className="translate-x-[500px] transition-all opacity-0 duration-700 w-[240px] md:w-[320px] h-[400px] md:h-[500px] bg-cover m-auto md:m-0 mt-[40px] md:mt-0 bg-no-repeat"
+            ref={profileRef}
+            src="/images/male.png"
+            alt="Profile"
+          />
+        </div>
       </section>
     </Fragment>
   );
