@@ -85,13 +85,14 @@ const Intro = () => {
           </div>
 
           {/* Image */}
-          <img
-            className="translate-x-[500px] transition-all opacity-0 duration-700 w-[240px] md:w-[320px] h-[400px] md:h-[500px] bg-cover m-auto md:m-0 mt-[40px] md:mt-0 bg-no-repeat"
-            ref={profileRef}
-            src="/images/male.png"
-            alt="Profile"
-          />
-        </div>
+          <div
+  className={
+    "translate-x-[500px] transition-all opacity-0 duration-700 w-[240px] md:w-[320px] h-[400px] md:h-[500px] bg-cover m-auto md:m-0 mt-[40px] md:mt-0 bg-no-repeat"
+  }
+  ref={profileRef}
+  style={{ backgroundImage: "url(https://github.com/user-attachments/assets/ef5eb699-c106-40b7-a504-ed231efb56e3)" }}
+/>
+</div>
       </section>
     </Fragment>
   );
