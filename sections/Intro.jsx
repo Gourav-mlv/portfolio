@@ -59,10 +59,10 @@ const Intro = () => {
             </p>
             {/* Profile Name */}
             <p className='text-2xl md:text-4xl py-2 font-semibold font-sans'>
-              I&apos;m a Full Stack
+              I&apos;m a Software Development
               <span className='text-[#2ecc71] dark:text-[#2ecc71]'>
                 {" "}
-                Developer <span className='text-white'>|</span>
+                Engineer II <span className='text-white'>|</span>
               </span>
             </p>
             <div className='mt-5 md:mt-10 flex gap-3'>

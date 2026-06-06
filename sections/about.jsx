@@ -75,7 +75,7 @@ const About = () => {
             </p>
             {/* Profile Name */}
             <p className='text-center md:text-left text-[#2ecc71] mt-1'>
-              Full stack web developer
+              Software Development Engineer II at Amazon
             </p>
             {/* Location */}
             <div className='flex flex-wrap justify-center md:justify-normal gap-5'>
@@ -117,19 +117,14 @@ const About = () => {
                   </p>
                 </div>
                 <p className='text-center md:text-left text-[#2ecc71] dark:text-[#2ecc71]'>
-                  3+ Year{" "}
+                  5+ Years
                 </p>
               </div>
             </div>
 
             <div className='mt-5 justify-evenly text-justify'>
               <p className='text-gray-600 dark:text-gray-300'>
-              I am Gourav Malviya, a proficient Full Stack Developer at Vymo Technologies, 
-              where I've optimized performance and pioneered advanced features like Lead Sentiment Analysis. 
-              My robust background includes an impactful stint at Walkover Web Solutions, and I excel in technologies 
-              like JavaScript, Python, React, and NodeJS. An engineering graduate from DAVV, I've received a Spot Award and 
-              achieved a 99.85 percentile on the Elitmus PH test. My problem-solving acumen is evident with over 560 challenges 
-              solved on leading coding platforms.
+              I am Gourav Malviya, currently a Software Development Engineer II at Amazon (Bengaluru). I build low-latency services and shared frontend architectures for large-scale applications. Previously, I worked at Vymo Technologies where I led migrations, reduced time-to-launch, and created tooling to speed deployments. My earlier experience includes an internship at Walkover Web Solutions. I work primarily with JavaScript/TypeScript, React, Node.js, AWS, and orchestration tools. I hold a B.Eng. from DAVV and have earned internal recognition for impact and reliability.
               </p>
             </div>
           </div>
