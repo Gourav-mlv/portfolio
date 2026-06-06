@@ -5,8 +5,10 @@ const Resume = () => {
     <Fragment>
       <div className="dark:bg-[#0ab0c2] m-auto mt-6 py-2 px-6 rounded w-fit dark:hover:bg-[#078795] bg-[#f91071] hover:bg-[#2ecc71] text-white font-bold z-10">
         <a
-          href="https://drive.google.com/file/d/1AWiU8oWJi5rY0nl6d3iMHOjevBq7izOU/view?usp=drive_link"
+          href="/Gourav_Malviya_Resume.pdf"
           target="_blank"
+          rel="noopener noreferrer"
+          download
         >
           Resume
         </a>
